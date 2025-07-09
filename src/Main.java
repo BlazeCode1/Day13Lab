@@ -162,6 +162,8 @@ public class Main {
 
         System.out.println("------------------");
         System.out.println("User 2 Shopping: ");
+        System.out.println("User 2 Searching for an academic book: "+ store.searchBook("Data Structures"));
+
         u2.addToCart(n1);
         u2.addToCart(ac2);
         u2.addToCart(ac1);
