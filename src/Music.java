@@ -31,7 +31,7 @@ public class Music extends Media{
     }
 
     public void listen(User user){
-        user.addToCart(this);
+        System.out.println(user.getUsername()+" is listening to " + this.getTitle());
     }
 
     //TODO: use generatePlayList in main
@@ -44,6 +44,7 @@ public class Music extends Media{
         }
         return songs;
     }
+
 
 
     @Override

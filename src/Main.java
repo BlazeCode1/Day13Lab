@@ -74,7 +74,7 @@ public class Main {
         secondNovelreviews.add(revN2_1);
         secondNovelreviews.add(revN2_2);
         secondNovelreviews.add(revN2_3);
-        Novel n2 = new Novel("The Great Gatsby", "Scott Fitzgerald", "212-990", 12.99, 22,secondNovelreviews,"Tragedy");
+        Novel n2 = new Novel("The Great Gatsby", "Scott Fitzgerald", "212-990", 12.99, 22, secondNovelreviews,"Tragedy");
         System.out.println("Title: " + n2.getTitle());
         System.out.println("Reviews:" );
         for (Review r : secondNovelreviews){
@@ -156,6 +156,8 @@ public class Main {
         }
         System.out.println("}");
         System.out.println();
+        System.out.println("User listening to music: ");
+        mu1.listen(u1);
 
 
         System.out.println("------------------");
